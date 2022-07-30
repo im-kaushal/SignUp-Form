@@ -123,6 +123,7 @@
             onChangeText={text => handleForm('name', text)}
             style={styles.input}
             placeholder="Name"
+            placeholderTextColor={"#a6a3a2"}
           />
           <Text style={styles.errorTxt}>{signUpForm.name.error}</Text>
           <TextInput
@@ -130,6 +131,7 @@
             onChangeText={text => handleForm('email', text)}
             style={styles.input}
             placeholder="Email"
+            placeholderTextColor={"#a6a3a2"}
           />
           <Text style={styles.errorTxt}>{signUpForm.email.error}</Text>
           <TextInput
@@ -137,6 +139,7 @@
             onChangeText={text => handleForm('password', text)}
             style={styles.input}
             placeholder="Password"
+            placeholderTextColor={"#a6a3a2"}
           />
           <Text style={styles.errorTxt}>{signUpForm.password.error}</Text>
           <TextInput
@@ -144,6 +147,7 @@
             onChangeText={text => handleForm('confirmPassword', text)}
             style={styles.input}
             placeholder="Confirm Password"
+            placeholderTextColor={"#a6a3a2"}
           />
           <Text style={styles.errorTxt}>
             {signUpForm.confirmPassword.error}
@@ -153,6 +157,7 @@
             onChangeText={text => handleForm('phone', text)}
             style={styles.input}
             placeholder="Phone"
+            placeholderTextColor={"#a6a3a2"}
           />
           <Text style={styles.errorTxt}>{signUpForm.phone.error}</Text>
           <View style={styles.btnContainer}>
@@ -195,6 +200,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   input: {
+    color: '#000',
     borderWidth: 1,
     paddingVertical: 5,
     paddingHorizontal: 10,
