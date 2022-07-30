@@ -7,7 +7,8 @@ Steps to run into your device:
   - install jdk
   - set path variable
   - if required, dawnload & install android studio to set up SDK
- -Note: Almost your setup is done, I have just given you a brief idea, kindly follow react-native documentation if case of any issue.
+ 
+ - Note: Almost your setup is done, I have just given you a brief idea, kindly follow react-native documentation if case of any issue.
   
 3. If set up is done try some commands on your CLI
 - npm adb devices (firstly connect your phone with your laptop through data-cable)
